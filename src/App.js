@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 // Import Container and Component Files
 import { Header, Footer, Starter } from './containers';
-import { Preloader, Onboard, SignIinForm, Feature, Navbar, SignInForm } from './components';
+import { Preloader, Onboard, SignInForm, Feature, Navbar } from './components';
 
 //Import Stykes
 import './App.scss';

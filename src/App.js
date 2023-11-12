@@ -6,6 +6,7 @@ import { Preloader, Feature, Navbar } from './components';
 
 //Import Stykes
 import './App.scss';
+import SignInForm from './components/SignIn/SignIn';
 
 
 const App = () => {

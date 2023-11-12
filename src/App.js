@@ -2,11 +2,10 @@ import React, { useState, useEffect } from 'react';
 
 // Import Container and Component Files
 import { Header, Footer, Starter } from './containers';
-import { Preloader, Feature, Navbar } from './components';
+import { Preloader, Signin, Feature, Navbar } from './components';
 
 //Import Stykes
 import './App.scss';
-
 
 const App = () => {
 
@@ -22,8 +21,15 @@ const App = () => {
             
       { loading && <Preloader /> }
 
+      { <Signin /> }
+
         <div className="App">
-          <SignInForm />
+        
+          
+          <h1 className="page-title">
+            errandBay
+          </h1>
+
         </div> 
 
     </>

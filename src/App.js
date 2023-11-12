@@ -7,6 +7,7 @@ import { Preloader, Feature, Navbar } from './components';
 //Import Stykes
 import './App.scss';
 
+
 const App = () => {
 
   const [loading, setLoading] = useState(true)
@@ -22,11 +23,7 @@ const App = () => {
       { loading && <Preloader /> }
 
         <div className="App">
-
-          <h1 className="page-title">
-            errandBay
-          </h1>
-
+          <SignInForm />
         </div> 
 
     </>

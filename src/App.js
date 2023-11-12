@@ -6,6 +6,7 @@ import { Preloader, Feature, Navbar, SignInForm } from './components';
 
 //Import Styles
 import './App.scss';
+import SignInForm from './components/SignIn/SignIn';
 
 
 const App = () => {

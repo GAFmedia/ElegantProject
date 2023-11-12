@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from 'react';
 
 // Import Container and Component Files
-// import { Header, Footer, Starter } from './containers';
-import { Preloader } from './components';
-// import { Feature, Navbar } from './components';
+import { Header, Footer, Starter } from './containers';
+import { Preloader, Feature, Navbar } from './components';
 
 //Import Stykes
 import './App.scss';
-import SignInForm from './components/SignIn/SignIn';
+
 
 const App = () => {
 
@@ -24,9 +23,7 @@ const App = () => {
       { loading && <Preloader /> }
 
         <div className="App">
-
           <SignInForm />
-
         </div> 
 
     </>

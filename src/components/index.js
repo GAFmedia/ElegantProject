@@ -4,4 +4,5 @@ export { default as Navbar } from './navbar/Navbar';
 export { default as Onboard } from './onboard/Onboard';
 export { default as Preloader } from './preloader/Preloader';
 export { default as SignInForm } from './SignIn/SignIn';
+export { default as VendorOnboard } from './vendoronboard/VendorOnboard';
 

@@ -4,7 +4,7 @@ import "./style.scss";
 
 //const [rememberPasswordCheckbox, changeCheckboxStatus] = useState("rectangle");
 
-const SignInForm = () => {
+const vendor = () => {
   return (
     <form action="post">
         <div className="user-login">
@@ -66,4 +66,4 @@ const SignInForm = () => {
 };
 
 
-export default SignInForm;
+export default vendor;

@@ -23,7 +23,7 @@ const App = () => {
       { loading && <Preloader /> }
 
         <div className="App">
-          <SignInForm />
+          <VendorOnboard />
         </div> 
 
     </>

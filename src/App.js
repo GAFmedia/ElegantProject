@@ -21,8 +21,9 @@ const App = () => {
             
       { loading && <Preloader /> }
 
+
         <div className="App">
-          <SignInFormr />
+            <SignInForm />
         </div> 
 
     </>

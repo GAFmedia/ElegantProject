@@ -21,15 +21,9 @@ const App = () => {
             
       { loading && <Preloader /> }
 
-      { <SignInForm /> }
 
         <div className="App">
-        
-          
-          <h1 className="page-title">
-            errandBay
-          </h1>
-
+            <SignInForm />
         </div> 
 
     </>

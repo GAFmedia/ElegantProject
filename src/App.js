@@ -23,7 +23,7 @@ const App = () => {
 
 
         <div className="App">
-            <SignInForm />
+            <VendorOnboard />
         </div> 
 
     </>

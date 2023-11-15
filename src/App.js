@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
-
 // Import Container and Component Files
 import { Header, Footer, Starter } from './containers';
-import { Preloader, Onboard, SignInForm, Feature, Navbar } from './components';
+import { Preloader, Feature, Navbar } from './components';
 
-//Import Stykes
+//Import Styles
 import './App.scss';
+import SignInForm from './components/SignIn/SignIn';
+
 
 const App = () => {
 

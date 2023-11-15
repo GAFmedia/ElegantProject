@@ -1,6 +1,6 @@
 import React from "react";
 //import { useState } from "react";
-import "./signinform.scss";
+import "./signin.scss";
 
 //const [rememberPasswordCheckbox, changeCheckboxStatus] = useState("rectangle");
 
@@ -26,7 +26,7 @@ const SignInForm = () => {
                 <input className="input" id="input-1" placeholder="Password" type="password" />           
             </div>
             </div>
-            <div className="inputs" onClick={ () => {
+            <div className="inputs cursor-type" onClick={ () => {
                 console.log("Clicked to login");
             } }>
             <div className="text-wrapper-6">Login</div>

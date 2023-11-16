@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+//import { useState } from "react";
+import "./signin.scss";
 import { Link } from "react-router-dom";
-import "./signinform.scss";
 
-const UserSignInForm = () => {
+//const [rememberPasswordCheckbox, changeCheckboxStatus] = useState("rectangle");
+
+const VendorSignIn = () => {
   return (
     <form action="post">
-        <div className="user-login">
+        <div className="vendor-login">
         <div className="div">
             <div className="group" /> 
             <div className="frame-2">
@@ -36,14 +39,14 @@ const UserSignInForm = () => {
             <div className="frame-4">
             <div className="text-wrapper-9">Forgot Password?</div>
             <p className="recover-here">
-                <Link to={'/userforgot'} className='cursor-type'><span className="span">Recover here</span></Link>
+            <Link to={'/vendorforgot'} className='cursor-type'><span className="span">Recover here</span></Link>
             </p>
             </div>
             <div className="frame">
             <div className="text-wrapper-2">Don’t have an account?</div>
             <div className="div-wrapper">
                {/* COMMENT IN HERE */}
-                <Link to={'/useronboardingpage'} className="cursor-type">
+                <Link to={'/vendoronboard'} className="cursor-type">
                     <div className="text-wrapper-3 cursor-type">Sign Up</div>
                 </Link>  
             </div>
@@ -51,7 +54,8 @@ const UserSignInForm = () => {
         </div>
         </div>
     </form>
-  )
-}
+  );
+};
 
-export default UserSignInForm
+
+export default VendorSignIn;

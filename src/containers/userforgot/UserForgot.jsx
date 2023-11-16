@@ -15,7 +15,7 @@ const UserForgot = () => {
               <input className="input" id="input-2" placeholder="Input Email address or phone number" type="email" />
             </div>
           </div>
-          <img className="ic-baseline-keyboard" src={ back } />
+          <img className="ic-baseline-keyboard" alt="ic baseline keyboard" src={ back } />
 
           <div className="text-wrapper-2">Forgot Password</div>
 

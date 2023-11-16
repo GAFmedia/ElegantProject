@@ -9,7 +9,7 @@ const SignUpMode = () => {
             <div className="overlap-group-wrapper">
                 <div className="overlap-group">
                     <div className="div">Sign up as</div>
-                        <Link to={"/vendoronboardingpage"}>
+                        <Link to={"/vendoronboard"}>
                             <button className="frame-vendor cursor-type" type="submit">
                                 Vendor
                             </button>
@@ -17,7 +17,7 @@ const SignUpMode = () => {
 
                         {/* COMMENT IN HERE */}             
                         
-                        <Link to={"/useronboardingpage"}>
+                        <Link to={"/useronboard"}>
                             <button className="frame-individual cursor-type" type="submit">
                                 Individual
                             </button>
@@ -28,7 +28,7 @@ const SignUpMode = () => {
                     <div className="frame-2">
                         <div className="text-wrapper-2">Already have an account?</div>
                         <div className="div-wrapper">
-                        <Link to={"/loginmodepage"} className='cursor-type'>
+                        <Link to={"/loginmode"} className='cursor-type'>
                             <div className="text-wrapper-3">Log in</div>
                         </Link>
                         </div>

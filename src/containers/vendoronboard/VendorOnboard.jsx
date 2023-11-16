@@ -60,7 +60,7 @@ const VendorOnboard = () => {
                 <div className="frame">
                     <div className="text-wrapper-2">Already have an account?</div>
                         <div className="div-wrapper">
-                            <Link to={'/vendorsiginpage'} className='cursor-type'>
+                            <Link to={'/vendorsignin'} className='cursor-type'>
                                 <div className="text-wrapper-3">Log in</div>
                             </Link>
                         </div>

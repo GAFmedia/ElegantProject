@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 // Import Container and Component Files
 import { Header, Footer, Starter } from './containers';
 import { Feature, Navbar, Onboard, Preloader } from './components';
-import { SignInForm, VendorOnboard } from './pages';
 import Routes from './Routes';
 
 //Import Styles

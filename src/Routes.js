@@ -1,17 +1,17 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { ModeOfAuth, UserForgot, UserSignInForm, VendorForgot, VendorOnboard, VendorSignInForm } from "./pages";
-import UserOnboard from "./pages/useronboardpage/UserOnboard";
+import { ModeOfAuth, UserForgot, UserSignIn, VendorForgot, VendorOnboard, VendorSignIn } from "./containers";
+import UserOnboard from "./containers/useronboard/UserOnboard";
 import { LogInMode, SignUpMode } from "./components";
 
 
 const routeObjects = createBrowserRouter([
             {path: '/', element: <ModeOfAuth />},
-            {path: '/vendoronboardingpage', element: <VendorOnboard />},
-            {path: '/useronboardingpage', element: <UserOnboard />},
-            {path: '/loginmodepage', element: <LogInMode />},
-            {path: '/usersigninpage', element: <UserSignInForm />},
-            {path: '/vendorsiginpage', element: <VendorSignInForm />},
-            {path: '/signupmodepage', element: <SignUpMode />},
+            {path: '/vendoronboard', element: <VendorOnboard />},
+            {path: '/useronboard', element: <UserOnboard />},
+            {path: '/loginmode', element: <LogInMode />},
+            {path: '/usersignin', element: <UserSignIn />},
+            {path: '/vendorsignin', element: <VendorSignIn />},
+            {path: '/signupmode', element: <SignUpMode />},
             {path: '/userforgot', element: <UserForgot />},
             {path: '/vendorforgot', element: <VendorForgot />},
         ]);

@@ -59,7 +59,7 @@ const UserOnboard = () => {
                 <div className="frame">
                     <div className="text-wrapper-2">Already have an account?</div>
                         <div className="div-wrapper">
-                            <Link to={'/usersigninpage'} className='cursor-type'>
+                            <Link to={'/usersignin'} className='cursor-type'>
                                 <div className="text-wrapper-3">Log in</div>
                             </Link>
                         </div>

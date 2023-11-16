@@ -1,4 +1,4 @@
-.vendor-sign-up {
+.vendor-login {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -6,14 +6,15 @@
     width: 100%;
   }
   
-  .vendor-sign-up .div-2 {
+  .vendor-login .div {
     background-color: #ffffff;
     height: 812px;
     position: relative;
     width: 375px;
   }
+
   
-  .vendor-sign-up .text-wrapper {
+  .vendor-login .text-wrapper {
     color: #000000;
     font-family: "Roboto-Black", Helvetica;
     font-size: 15px;
@@ -29,16 +30,17 @@
     width: 54px;
   }
   
-  .vendor-sign-up .frame {
+  .vendor-login .frame {
     align-items: center;
+    background-color: #ffffff;
     display: inline-flex;
     gap: 10px;
-    left: 76px;
+    left: 78px;
     position: absolute;
     top: 694px;
   }
   
-  .vendor-sign-up .text-wrapper-2 {
+  .vendor-login .text-wrapper-2 {
     color: #000000;
     font-family: "Poppins-Regular", Helvetica;
     font-size: 12px;
@@ -49,10 +51,10 @@
     width: fit-content;
   }
   
-  .vendor-sign-up .div-wrapper {
+  .vendor-login .div-wrapper {
     align-items: flex-start;
     background-color: var(--light-blue);
-    border-radius: 2.5px;
+    border-radius: 2px;
     display: inline-flex;
     flex: 0 0 auto;
     gap: 10px;
@@ -60,7 +62,7 @@
     position: relative;
   }
   
-  .vendor-sign-up .text-wrapper-3 {
+  .vendor-login .text-wrapper-3 {
     color: #0056fb;
     font-family: "Poppins-Regular", Helvetica;
     font-size: 12px;
@@ -71,9 +73,15 @@
     position: relative;
     white-space: nowrap;
     width: fit-content;
+    background:  #DDE9FF;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
   }
   
-  .vendor-sign-up .group {
+  .vendor-login .group {
     background-image: url(/assets/ellipse-1.png);
     background-position: 50% 50%;
     background-size: cover;
@@ -84,7 +92,7 @@
     width: 80px;
   }
   
-  .vendor-sign-up .frame-2 {
+  .vendor-login .frame-2 {
     height: 71px;
     left: 24px;
     position: absolute;
@@ -92,7 +100,7 @@
     width: 327px;
   }
   
-  .vendor-sign-up .text-wrapper-4 {
+  .vendor-login .text-wrapper-4 {
     color: #000000;
     font-family: var(--h3-medium-font-family);
     font-size: var(--h3-medium-font-size);
@@ -105,30 +113,31 @@
     top: -1px;
   }
   
-  .vendor-sign-up .text-wrapper-5 {
+  .vendor-login .p {
     color: #000000;
-    font-family: "Poppins-Regular", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--text-large-button-font-family);
+    font-size: var(--text-large-button-font-size);
+    font-style: var(--text-large-button-font-style);
+    font-weight: var(--text-large-button-font-weight);
     height: 24px;
-    left: 10PX;
-    letter-spacing: 0;
-    line-height: normal;
+    left: 10px;
+    letter-spacing: var(--text-large-button-letter-spacing);
+    line-height: var(--text-large-button-line-height);
     position: absolute;
     text-align: center;
-    top: 37px;
+    top: 49px;
     width: 327px;
   }
   
-  .vendor-sign-up .profile-content {
-    height: 68px;
+  .vendor-login .profile-content {
+    height: 73px;
     left: 24px;
     position: absolute;
-    top: 334px;
+    top: 317px;
     width: 329px;
   }
   
-  .vendor-sign-up .text-wrapper-6 {
+  .vendor-login .text-wrapper-5 {
     color: #000000;
     font-family: "Poppins-Regular", Helvetica;
     font-size: 16px;
@@ -140,44 +149,7 @@
     top: 0;
   }
   
-  .vendor-sign-up .input {
-    align-items: flex-start;
-    border: 1px solid;
-    border-color: #cccccc;
-    border-radius: 8px;
-    display: flex;
-    gap: 10px;
-    height: 44px;
-    left: 0;
-    padding: 16px;
-    position: absolute;
-    top: 24px;
-    width: 327px;
-  }
-  
-  .vendor-sign-up .text-wrapper-7 {
-    color: #000000;
-    font-family: "Poppins-Regular", Helvetica;
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-bottom: -5px;
-    margin-top: -1px;
-    opacity: 0.5;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .vendor-sign-up .profile-content-2 {
-    height: 68px;
-    left: 25px;
-    position: absolute;
-    top: 248px;
-    width: 329px;
-  }
-  
-  .vendor-sign-up .input-2 {
+  .vendor-login .input {
     background: none;
     border: 1px solid;
     border-color: #cccccc;
@@ -194,54 +166,11 @@
     margin-top: -1px;
     padding: 16px;
     position: absolute;
-    top: 24px;
+    top: 29px;
     width: 327px;
   }
   
-  .vendor-sign-up .profile-content-3 {
-    height: 74px;
-    left: 24px;
-    position: absolute;
-    top: 498px;
-    width: 329px;
-  }
-  
-  .vendor-sign-up .input-3 {
-    align-items: flex-start;
-    border: 1px solid;
-    border-color: #cccccc;
-    border-radius: 8px;
-    display: flex;
-    gap: 10px;
-    left: 0;
-    padding: 16px;
-    position: absolute;
-    top: 24px;
-    width: 327px;
-  }
-  
-  .vendor-sign-up .text-wrapper-8 {
-    color: #000000;
-    font-family: "Poppins-Regular", Helvetica;
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -1px;
-    opacity: 0.5;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .vendor-sign-up .profile-content-4 {
-    height: 68px;
-    left: 24px;
-    position: absolute;
-    top: 420px;
-    width: 329px;
-  }
-  
-  .vendor-sign-up .inputs {
+  .vendor-login .inputs {
     align-items: center;
     background-color: #0056fb;
     border-radius: 8px;
@@ -252,11 +181,11 @@
     left: 24px;
     padding: 16px 8px;
     position: absolute;
-    top: 641px;
+    top: 554px;
     width: 327px;
   }
   
-  .vendor-sign-up .text-wrapper-9 {
+  .vendor-login .text-wrapper-6 {
     color: #ffffff;
     font-family: "Poppins-Medium", Helvetica;
     font-size: 16px;
@@ -269,39 +198,129 @@
     width: fit-content;
   }
   
-  .vendor-sign-up .frame-3 {
+  .vendor-login .profile-content-wrapper {
     align-items: flex-start;
     display: inline-flex;
-    gap: 10px;
-    left: 25px;
+    flex-direction: column;
+    gap: 3px;
+    left: 24px;
     position: absolute;
-    top: 582px;
+    top: 410px;
   }
   
-
+  .vendor-login .profile-content-2 {
+    height: 73px;
+    margin-right: -2px;
+    position: relative;
+    width: 329px;
+  }
   
-  .vendor-sign-up .i-agree-to {
-    color: transparent;
+  .vendor-login .input-2 {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: #cccccc;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+    height: 44px;
+    left: 0;
+    padding: 16px;
+    position: absolute;
+    top: 29px;
+    width: 327px;
+  }
+  
+  .vendor-login .text-wrapper-7 {
+    color: #000000;
     font-family: "Poppins-Regular", Helvetica;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
-    height: 29px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -5px;
+    margin-top: -1px;
+    opacity: 0.5;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .vendor-login .frame-3 {
+    align-items: center;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    left: 24px;
+    position: absolute;
+    top: 493px;
+  }
+
+  .vendor-login .text-wrapper-8 {
+    color: #000000;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 14px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .vendor-login .frame-4 {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 3px;
+    left: 92px;
+    position: absolute;
+    top: 619px;
+  }
+  
+  .vendor-login .text-wrapper-9 {
+    color: #000000;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
     letter-spacing: 0;
     line-height: 14px;
     margin-top: -1px;
     position: relative;
-    width: 300px;
+    white-space: nowrap;
+    width: fit-content;
   }
   
-  .vendor-sign-up .span {
-    color: #000000;
-    font-weight: 600;
+  .vendor-login .recover-here {
+    color: var(--blue);
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 14px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
   }
   
-  .vendor-sign-up .text-wrapper-10 {
+  .vendor-login .span {
     color: #0056fb;
+    font-weight: 500;
+  }
+
+  .vendor-login .span2 {
+    color: #000000;
+    font-weight: 500;
   }
   
+  .vendor-login .text-wrapper-10 {
+    color: #0056fb;
+    font-family: "Poppins-Regular", Helvetica;
+  }
+
   .cursor-type {
     cursor: pointer;
+    text-decoration: none;
+  }
+
+  .left-gap {
+    margin-left: 10px;
   }

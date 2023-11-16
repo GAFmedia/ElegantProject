@@ -1,0 +1,121 @@
+.sign-up {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+    padding: 50px;
+    text-decoration: none;
+  }
+  
+  .sign-up .overlap-group-wrapper {
+    height: 244px;
+    width: 330px;
+  }
+  
+  .sign-up .overlap-group {
+    background-color: #ffffff;
+    height: 244px;
+    position: relative;
+    width: 327px;
+  }
+  
+  .sign-up .div {
+    color: #000000;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    left: 111px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 47px;
+    text-decoration: none;
+  }
+  
+  .sign-up .frame-vendor {
+    height: 46px !important;
+    left: 30px !important;
+    position: absolute !important;
+    top: 122px !important;
+    width: 122px !important;
+    background: #0056FB;
+    border: 0; 
+    border-radius: 8px; 
+    color: white;
+  }
+  
+  .sign-up .frame-individual {
+    height: 46px !important;
+    left: 175px !important;
+    position: absolute !important;
+    top: 122px !important;
+    width: 122px !important;
+    background:  #DDE9FF;
+    border: 0; 
+    border-radius: 8px; 
+    color: #0056FB;
+  }
+
+  .sign-up .small-size-instance {
+    font-family: "Comic Sans MS-Regular", Helvetica !important;
+  }
+  
+  .sign-up .frame-2 {
+    align-items: center;
+    display: inline-flex;
+    gap: 10px;
+    left: 53px;
+    position: absolute;
+    top: 184px;
+    margin-top: 10px;
+  }
+  
+  .sign-up .text-wrapper-2 {
+    color: #000000;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .sign-up .div-wrapper {
+    align-items: flex-start;
+    background-color: var(--light-blue);
+    border-radius: 2.5px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    padding: 5px 10px;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .sign-up .text-wrapper-3 {
+    color: #0056fb;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 14px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    background:  #DDE9FF;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+;
+  }
+ 
+  .cursor-type {
+    cursor: pointer;
+    text-decoration: none;
+  }

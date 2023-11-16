@@ -73,6 +73,12 @@
     position: relative;
     white-space: nowrap;
     width: fit-content;
+    background:  #DDE9FF;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
   }
   
   .user-login .group {
@@ -312,4 +318,9 @@
 
   .cursor-type {
     cursor: pointer;
+    text-decoration: none;
+  }
+
+  .left-gap {
+    margin-left: 10px;
   }

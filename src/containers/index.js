@@ -1,4 +1,3 @@
-
 export { default as Header } from './header/Header';
 export { default as Footer } from './footer/Footer';
 export { default as Starter } from './starter/Starter';
@@ -10,4 +9,3 @@ export { default as ModeOfAuth } from './modeofauthentication/ModeOfAuth';
 export { default as UserSignIn } from './usersignin/SignIn';
 export { default as UserOnboard } from './useronboard/UserOnboard';
 export { default as UserForgot } from './userforgot/UserForgot';
-

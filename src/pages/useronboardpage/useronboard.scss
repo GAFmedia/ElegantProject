@@ -1,0 +1,312 @@
+.user-sign-up {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .user-sign-up .div-2 {
+    background-color: #ffffff;
+    height: 812px;
+    position: relative;
+    width: 375px;
+  }
+  
+  .user-sign-up .text-wrapper {
+    color: #000000;
+    font-family: "Roboto-Black", Helvetica;
+    font-size: 15px;
+    font-weight: 900;
+    height: 18px;
+    left: 0;
+    letter-spacing: -0.3px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 54px;
+  }
+  
+  .user-sign-up .frame {
+    align-items: center;
+    display: inline-flex;
+    gap: 10px;
+    left: 76px;
+    position: absolute;
+    top: 654px;
+  }
+  
+  .user-sign-up .text-wrapper-2 {
+    color: #000000;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .user-sign-up .div-wrapper {
+    align-items: flex-start;
+    background-color: var(--light-blue);
+    border-radius: 2.5px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    padding: 5px 10px;
+    position: relative;
+  }
+  
+  .user-sign-up .text-wrapper-3 {
+    color: #0056fb;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 14px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    background:  #DDE9FF;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+  }
+  
+  .user-sign-up .group {
+    background-image: url(/assets/ellipse-1.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 80px;
+    left: 148px;
+    position: absolute;
+    top: 68px;
+    width: 80px;
+  }
+  
+  .user-sign-up .frame-2 {
+    height: 71px;
+    left: 24px;
+    position: absolute;
+    top: 173px;
+    width: 327px;
+  }
+  
+  .user-sign-up .text-wrapper-4 {
+    color: #000000;
+    font-family: var(--h3-medium-font-family);
+    font-size: var(--h3-medium-font-size);
+    font-style: var(--h3-medium-font-style);
+    font-weight: var(--h3-medium-font-weight);
+    left: 120px;
+    letter-spacing: var(--h3-medium-letter-spacing);
+    line-height: var(--h3-medium-line-height);
+    position: absolute;
+    top: -1px;
+  }
+  
+  .user-sign-up .text-wrapper-5 {
+    color: #000000;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 24px;
+    left: 10PX;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 37px;
+    width: 327px;
+  }
+  
+  .user-sign-up .profile-content {
+    height: 68px;
+    left: 24px;
+    position: absolute;
+    top: 334px;
+    width: 329px;
+  }
+  
+  .user-sign-up .text-wrapper-6 {
+    color: #000000;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .user-sign-up .input {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: #cccccc;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+    height: 44px;
+    left: 0;
+    padding: 16px;
+    position: absolute;
+    top: 24px;
+    width: 327px;
+  }
+  
+  .user-sign-up .text-wrapper-7 {
+    color: #000000;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -5px;
+    margin-top: -1px;
+    opacity: 0.5;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .user-sign-up .profile-content-2 {
+    height: 68px;
+    left: 25px;
+    position: absolute;
+    top: 248px;
+    width: 329px;
+    margin-bottom: 0;
+  }
+  
+  .user-sign-up .input-2 {
+    background: none;
+    border: 1px solid;
+    border-color: #cccccc;
+    border-radius: 8px;
+    color: #000000;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    height: 44px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -5px;
+    margin-top: -1px;
+    padding: 16px;
+    position: absolute;
+    top: 24px;
+    width: 327px;
+  }
+  
+  .user-sign-up .profile-content-3 {
+    height: 74px;
+    left: 24px;
+    position: absolute;
+    top: 433px;
+    width: 329px;
+  }
+  
+  .user-sign-up .input-3 {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: #cccccc;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+    left: 0;
+    padding: 16px;
+    position: absolute;
+    top: 24px;
+    width: 327px;
+  }
+  
+  .user-sign-up .text-wrapper-8 {
+    color: #000000;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    opacity: 0.5;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .user-sign-up .profile-content-4 {
+    height: 68px;
+    left: 24px;
+    position: absolute;
+    top: 340px;
+    width: 329px;
+  }
+  
+  .user-sign-up .inputs {
+    align-items: center;
+    background-color: #0056fb;
+    border-radius: 8px;
+    display: flex;
+    gap: 8px;
+    height: 45px;
+    justify-content: center;
+    left: 24px;
+    padding: 16px 8px;
+    position: absolute;
+    top: 601px;
+    width: 327px;
+  }
+  
+  .user-sign-up .text-wrapper-9 {
+    color: #ffffff;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -4.5px;
+    margin-top: -6.5px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .user-sign-up .frame-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 10px;
+    left: 25px;
+    position: absolute;
+    top: 522px;
+  }
+  
+  .user-sign-up .i-agree-to {
+    color: transparent;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    height: 29px;
+    letter-spacing: 0;
+    line-height: 14px;
+    margin-top: -1px;
+    position: relative;
+    width: 300px;
+  }
+  
+  .user-sign-up .span {
+    color: #000000;
+    font-weight: 600;
+  }
+  
+  .user-sign-up .text-wrapper-10 {
+    color: #0056fb;
+  }
+  
+  .cursor-type {
+    cursor: pointer;
+  }

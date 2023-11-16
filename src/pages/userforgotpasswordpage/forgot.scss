@@ -1,0 +1,147 @@
+.user-forgot-password {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .user-forgot-password .div {
+    background-color: #ffffff;
+    height: 812px;
+    position: relative;
+    width: 375px;
+  }
+  
+  .user-forgot-password .text-wrapper {
+    color: #000000;
+    font-family: "Roboto-Black", Helvetica;
+    font-size: 15px;
+    font-weight: 900;
+    height: 18px;
+    left: 0;
+    letter-spacing: -0.3px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 54px;
+  }
+  
+  .user-forgot-password .frame {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 5px;
+    left: 24px;
+    position: absolute;
+    top: 170px;
+  }
+  
+  .user-forgot-password .profile-content {
+    height: 73px;
+    margin-right: -2px;
+    position: relative;
+    width: 329px;
+  }
+  
+  .user-forgot-password .label {
+    color: #000000;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .user-forgot-password .input {
+    background: none;
+    border: 1px solid;
+    border-color: #cccccc;
+    border-radius: 8px;
+    color: #000000;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    height: 44px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -5px;
+    margin-top: -1px;
+    padding: 16px;
+    position: absolute;
+    top: 29px;
+    width: 327px;
+  }
+  
+  .user-forgot-password .ic-baseline-keyboard {
+    height: 24px;
+    left: 24px;
+    position: absolute;
+    top: 56px;
+    width: 24px;
+  }
+  
+  .user-forgot-password .text-wrapper-2 {
+    color: #000000;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    left: 114px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 55px;
+  }
+  
+  .user-forgot-password .p {
+    color: #000000;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 24px;
+    letter-spacing: 0.32px;
+    line-height: 19.2px;
+    position: absolute;
+    top: 105px;
+    width: 327px;
+  }
+  
+  .user-forgot-password .inputs {
+    align-items: center;
+    background-color: #0056fb;
+    border-radius: 8px;
+    display: flex;
+    gap: 8px;
+    height: 45px;
+    justify-content: center;
+    left: 24px;
+    padding: 16px 8px;
+    position: absolute;
+    top: 531px;
+    width: 327px;
+  }
+  
+  .user-forgot-password .text-wrapper-3 {
+    color: #ffffff;
+    font-family: var(--text-large-button-font-family);
+    font-size: var(--text-large-button-font-size);
+    font-style: var(--text-large-button-font-style);
+    font-weight: var(--text-large-button-font-weight);
+    letter-spacing: var(--text-large-button-letter-spacing);
+    line-height: var(--text-large-button-line-height);
+    margin-bottom: -4.5px;
+    margin-top: -6.5px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .cursor-type {
+    cursor: pointer;
+    text-decoration: none;
+  }

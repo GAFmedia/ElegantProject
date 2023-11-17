@@ -14,10 +14,10 @@ const Preloader = () => {
           </div> 
           <div className="name-logo"><h1>Buy4Me</h1></div>                   
         </div>
+        <div className="spining-loader"></div>
       </div>
     </div>
   )
-
 }
 
 export default Preloader

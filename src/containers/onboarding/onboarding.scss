@@ -10,7 +10,7 @@
     height:100vh;
     height:calc(var(--vh, 1vh) * 100);
     position: fixed;    
-//    background:#892626;
+    background:#ffffff;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -18,28 +18,5 @@
     color:#000;
     overflow: hidden !important;
     font-family: "Poppins", Helvetica;
-  
-    .onboardingWrapper {
-      margin:0;
-      padding:0;
-      height:100%;
-      width: 375px;      
-      display:flex;
-      align-items:center;
-      align-content:center;
-      justify-content:center;
-      flex-flow: column;
-      background-color: #ffffff;
-      position:relative;
-
-      .mainTitle{
-        margin:0;
-        margin-bottom:20px;
-        padding:0;
-        font-size:24px;
-        flex:none;
-      }
-
-    }
 
 }

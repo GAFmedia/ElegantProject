@@ -1,10 +1,10 @@
 import React from "react";
 //import { useState } from "react";
-import "./signinform.scss";
+import "./signin.scss";
 
 //const [rememberPasswordCheckbox, changeCheckboxStatus] = useState("rectangle");
 
-const SignInForm = () => {
+const SignIn = () => {
   return (
     <form action="post">
         <div className="user-login">
@@ -54,4 +54,4 @@ const SignInForm = () => {
 };
 
 
-export default SignInForm;
+export default SignIn;

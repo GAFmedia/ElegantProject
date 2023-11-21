@@ -1,21 +1,26 @@
 import React,  { useRef, useState } from 'react';
 import { MdClose } from 'react-icons/md';
-import { AppButton } from '..';
+import { AppButton, RegistModal } from '..';
+import { Welcome } from '../../containers';
 import './authenticatemodal.scss'
 
-const AuthenticateModal = ({ showModal, setShowModal, data }) => {
+const LoginModal = ({ authScreens, showLogModal, showRegModal, setShowLogModal, setShowRegModal, data }) => {
     
   const modalRef = useRef();
 
   const closeModal = e =>{
     if(modalRef.current === e.target){
-      setShowModal(false);
+      setShowLogModal(false);
     }
   };
 
+  const [registerScreen, setRegisterScreen] = useState(false);
+      
+  if(registerScreen){ return <Welcome /> };    
+
   return (
 
-    showModal ? (
+    showLogModal ? (
 
       <div className='modalBackground' ref={modalRef} onClick={closeModal}>
             
@@ -31,7 +36,7 @@ const AuthenticateModal = ({ showModal, setShowModal, data }) => {
 
                 {/* Autthentication Select Screen Close Button */}
                 <div className="closeButtonWrap mx-b-4">
-                  <MdClose className="closeModalButton" aria-label='Close Modal' onClick={() => setShowModal(prev => !prev)} />
+                  <MdClose className="closeModalButton" aria-label='Close Modal' onClick={() => setShowLogModal(prev => !prev)} />
                   <span className='closeText'>Close</span>
                 </div>
                               <div className={ "authOptionWrap" } key={idx} >
@@ -48,7 +53,7 @@ const AuthenticateModal = ({ showModal, setShowModal, data }) => {
                   {/* Autthentication Select Lower Section Info */}
                   <div className="authInfoWrap mx-t-3" key={idx} >
                     <p className="authInfoText my-r-2">{ item.authInfo }</p>
-                    <AppButton text={ item.authInfoBtn } aesthClass="smallButton secondary" onClick={"openModal"} />
+                    <AppButton text={ item.authInfoBtn } aesthClass="smallButton secondary" ref={modalRef} onClick={ () => setRegisterScreen(true) } />
                   </div>
 
                 </div>              
@@ -69,4 +74,4 @@ const AuthenticateModal = ({ showModal, setShowModal, data }) => {
 
 }
 
-export default AuthenticateModal
+export default LoginModal

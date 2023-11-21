@@ -1,14 +1,27 @@
 import React, { useState } from 'react';
-import { OnboardingCarousel, AppButton, AuthenticateModal, OnButton } from '../../components';
-import { onboardSlides, authScreens } from '../../Helpers';
+import { LoginModal, RegistModal, AppButton } from '../../components';
+import { authScreens } from '../../Helpers';
+import SlideFour from '../../assets/slideFour.webp';
 import './welcome.scss';
 
 const Welcome = () => {
 
-  const [showModal, setShowModal] = useState(false);
+  const heroImage =  {
+    title: "Connecting you to Ease", 
+    img: SlideFour, 
+    alt: "Slide-Four Image"
+}
 
-  const openModal = () => {
-        setShowModal(prev => !prev);
+  const [showLogModal, setShowLogModal] = useState(false);
+
+  const openLogModal = () => {
+        setShowLogModal(prev => !prev);
+  }
+
+  const [showRegModal, setShowRegModal] = useState(false);
+
+  const openRegModal = () => {
+        setShowRegModal(prev => !prev);
   }
 
   return (
@@ -19,17 +32,41 @@ const Welcome = () => {
 
         <h1 className="mainTitle">Welcome to Buy4Me</h1>
 
-        <OnboardingCarousel data={onboardSlides} />
+            <div className="onboardingCarousel mx-5">
 
+                <div className="onboardingCarouselInner">
+                          
+                  <div className={ "onboardingCarouselItem" } >                      
+                      
+                      <div className="onboardingCarouselSlide" >
+
+                        <img src={heroImage.img} alt={heroImage.alt} className="carouselImg"/>                
+
+                      </div>
+                      
+                      <div className="onboardingCarouselCaption mx-4">
+                          <h2 className="captionTitle" >{ heroImage.title }</h2>
+                      </div>
+                      
+                  </div>
+
+                </div>
+            
+            </div>
+
+        {<LoginModal data={authScreens} showLogModal={showLogModal} setShowLogModal={setShowLogModal} /> }
+        
+        {<RegistModal data={authScreens} showRegModal={showRegModal} setShowRegModal={setShowRegModal} /> }
+    
         <div className="onboardingButtons" >
-          
-          <OnButton data={authScreens} showModal = {showModal} openModal={openModal} type="Button" aesthClass="wideButton mx-b-2 secondary"  />
+        
+        {<AppButton text={authScreens.authScreen = "Login"} value={authScreens} key={authScreens.id=0} showLogModal = {showLogModal} openLogModal={openLogModal} type="Button" onClick={ openLogModal } aesthClass={ " wideButton mx-b-2 secondary " }/>}
+
+        {<AppButton text={authScreens.authScreen = "Register"}  value={authScreens} key={authScreens.id=1}  showRegModal = {showRegModal} openRegModal={openRegModal} type="Button" onClick={ openRegModal } aesthClass={ " wideButton primary " }/>}
                         
         </div>
 
       </div>
-
-        {<AuthenticateModal data={authScreens} showModal={showModal} setShowModal={setShowModal} /> }
 
     </div>
 

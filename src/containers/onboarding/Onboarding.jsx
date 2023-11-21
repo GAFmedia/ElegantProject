@@ -9,7 +9,7 @@ const Onboarding = () => {
 
     <div className="onboarding">
 
-      <OnboardingCarousel data={onboardSlides} />
+      <OnboardingCarousel data={ onboardSlides } />
 
     </div>
 

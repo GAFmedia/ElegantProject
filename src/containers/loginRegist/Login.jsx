@@ -4,7 +4,7 @@ import "./signin.scss";
 
 //const [rememberPasswordCheckbox, changeCheckboxStatus] = useState("rectangle");
 
-const SignIn = () => {
+const Login = () => {
   return (
     <form action="post">
         <div className="user-login">
@@ -54,4 +54,4 @@ const SignIn = () => {
 };
 
 
-export default SignIn;
+export default Login;

@@ -40,6 +40,100 @@
         flex:none;
       }
 
+      .onboardingCarousel{
+        margin:0;
+        padding:0;
+        width:300px;
+        height:auto;    
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow:column;
+        position: relative;
+
+        .onboardingCarouselInner{
+            margin:0;
+            padding:0;
+            width:100%;
+            height:auto;
+            display:inline-flex;
+            align-items:center;
+            align-content:flex-start;
+            justify-content:flex-start;
+            flex-flow:row;
+            background-position:center center;
+            background-size:contain;
+            background-repeat:no-repeat;
+            overflow:none !important;
+            position: relative;
+            
+            .onboardingCarouselItem{
+                margin:0;
+                padding:0;
+                width:100%;
+                height:auto;
+                display:flex;
+                flex-flow:column;
+                flex:none;
+                position: relative;
+
+                .onboardingCarouselSlide{
+                    margin:0;
+                    padding:4px;
+                    width:275px;
+                    height:275px;
+                    display:flex;
+                    align-items:center;
+                    align-content:center;
+                    align-self: center;
+                    justify-content:center;
+                    border-radius:5%;
+                    box-shadow:0px 0px 4px rgba(0, 0, 0, 0.75);
+
+                    .carouselImg{
+                        margin:0;
+                        padding:0;
+                        width:100%;
+                        border-radius:1%;
+                }        
+
+                }
+
+                .onboardingCarouselCaption{
+                    margin:0;
+                    padding:0;
+                    width:100%;
+                    text-align: center;
+                    
+                    .captionTitle {
+                        margin:0;
+                        margin-bottom:2.5px;
+                        color: #000000;
+                        font-size: 20px;
+                        font-weight: 600;
+                        letter-spacing: 0.2px;
+                        line-height: normal;
+                    }
+
+                    .captionSubTitle {
+                        color: #000000;
+                        font-size: 16px;
+                        font-weight: 400;
+                        letter-spacing: 1.28px;
+                        line-height: normal;
+                    }
+                }
+
+            } 
+            
+            .carouselItem-hidden{
+                display:none;
+            }
+
+        }          
+
+    }
+    
       .onboardingButtons{
         margin:0;
         padding:0;

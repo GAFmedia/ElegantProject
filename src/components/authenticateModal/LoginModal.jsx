@@ -1,7 +1,8 @@
 import React,  { useRef, useState } from 'react';
 import { MdClose } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 import { AppButton, RegistModal } from '..';
-import { Welcome } from '../../containers';
+import { Welcome, Login } from '../../containers';
 import './authenticatemodal.scss'
 
 const LoginModal = ({ authScreens, showLogModal, showRegModal, setShowLogModal, setShowRegModal, data }) => {
@@ -16,7 +17,7 @@ const LoginModal = ({ authScreens, showLogModal, showRegModal, setShowLogModal, 
 
   const [registerScreen, setRegisterScreen] = useState(false);
       
-  if(registerScreen){ return <Welcome /> };    
+  if(registerScreen){ return <Login /> };    
 
   return (
 
@@ -46,14 +47,14 @@ const LoginModal = ({ authScreens, showLogModal, showRegModal, setShowLogModal, 
 
                   {/* Autthentication Select Options */}
                   <div className="authButtonsWrap mx-5" key={idx} >
-                    <AppButton type={"Button"} text={"Vendor"} aesthClass="midiButton primary my-r-4" onClick={""} />
-                    <AppButton type={"Button"} text={"Buyer"} aesthClass="midiButton secondary" onClick={""} />
+                    <AppButton type={"Button"} text={"Vendor"} aesthClass="midiButton primary my-r-4" onClick={ () => setRegisterScreen(true) } />
+                    <AppButton type={"Button"} text={"Buyer"} aesthClass="midiButton secondary" onClick={ () => setRegisterScreen(true) } />
                   </div>
 
                   {/* Autthentication Select Lower Section Info */}
                   <div className="authInfoWrap mx-t-3" key={idx} >
                     <p className="authInfoText my-r-2">{ item.authInfo }</p>
-                    <AppButton text={ item.authInfoBtn } aesthClass="smallButton secondary" ref={modalRef} onClick={ () => setRegisterScreen(true) } />
+                    <AppButton text={ item.authInfoBtn } aesthClass="smallButton secondary" ref={modalRef} onClick={ () => setRegisterScreen(true)  } />
                   </div>
 
                 </div>              

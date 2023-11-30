@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 
+import { routes } from './Routes';
 // Import Container and Component Files
 import { Header, Onboarding, Footer, Starter } from './containers';
-import { Preloader, SignInForm, Feature, Navbar } from './components';
+import { Preloader, SignInForm, Feature, Navbar, Login } from './components';
+
 
 
 //Import Stykes
@@ -19,13 +21,16 @@ const App = () => {
 
   return (
 
-    <>
+    < div className='App'>
+
+      <Navbar />
+      <routes />
             
       { loading && <Preloader /> }
 
       { <Onboarding /> }     
 
-    </>
+    </div>
 
   );
   

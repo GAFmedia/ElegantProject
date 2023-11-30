@@ -7,7 +7,7 @@ import './welcome.scss';
 const Welcome = () => {
 
   const heroImage =  {
-    title: "Connecting you to Ease", 
+    title: "Connecting you to Convenience", 
     img: SlideFour, 
     alt: "Slide-Four Image"
 }

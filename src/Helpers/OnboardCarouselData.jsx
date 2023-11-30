@@ -24,14 +24,14 @@ export const onboardSlides = [
         subTitle: "Order food items comfortably from your home with no Stress.", 
         img: SlideThree, 
         alt: "Slide-Three Image"
-    },    
-    {
+    }   
+/*    {
         id:3,
         title: "Door Delivery", 
         subTitle: "Items delivered to your Door Step.", 
         img: SlideFour, 
         alt: "Slide-Four Image"
-    }
+    } */
 ];
 
 
